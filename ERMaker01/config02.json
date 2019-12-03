@@ -1,0 +1,21 @@
+{
+  "size": [ 5, 5 ],
+  "tables": {
+    "Schools": [ "Schools" ],
+    "Students": [ "Students", "Courses" ],
+    "Papers": [ "Papers", "Students", "PaperTemplates" ],
+    "Questions": [ "Questions", "Papers", "QuestionTemplates" ],
+    "Answers": [ "Answers", "Questions" ],
+    "Teachers": [ "Teachers", "Schools" ],
+    "PaperTemplates": [ "PaperTemplates" ],
+    "QuestionTemplates": [ "QuestionTemplates" ],
+    "Subjects": [ "Subjects" ],
+    "SubjectsPaperTemplates": [ "SubjectsPaperTemplates", "Subjects", "PaperTemplates" ],
+    "SubjectsQuestionTemplates": [ "SubjectsQuestionTemplates", "Subjects", "QuestionTemplates" ],
+    "Courses": [ "Courses", "Schools" ],
+    "CoursesLectures": [ "CoursesLectures", "Courses", "Lectures" ],
+    "Schedules": [ "Schedules", "Lectures" ],
+    "Lectures": [ "Lectures", "Subjects", "Teachers" ],
+    "SchedulesStudents": [ "SchedulesStudents", "Schedules", "Students" ]
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "size": [ 5, 5 ],
+  "tables": {
+    "Schools": [ "Schools" ],
+    "Students": [ "Students", "Rooms" ],
+    "Rooms": [ "Rooms", "Schools" ],
+    "Papers": [ "Papers", "Students" ],
+    "Questions": [ "Questions", "Papers" ],
+    "Answers": [ "Answers", "Questions" ]
+  }
+}
